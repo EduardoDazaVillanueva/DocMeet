@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/Roboto_Condensed/RobotoCondensed.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+    <title>DocMeet - Citas salud Online</title>
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="home__nav--login" id="home__nav">
+
+        <div class="nav__right--login">
+
+            <!-- CAMBIAR DE IDIOMA -->
+            <div class="nav__radio--login">
+
+                <label class="radio__label--login">
+                    <input class="radio__input--login" type="radio" name="radio" checked>
+                    <span class="radio__text--login"> ESPAÑOL</span>
+                </label>
+
+                <label class="radio__label--login">
+                    <input class="radio__input--login" type="radio" name="radio">
+                    <span class="radio__text--login"> INGLES</span>
+                </label>
+
+                <label class="radio__label--login">
+                    <input class="radio__input--login" type="radio" name="radio">
+                    <span class="radio__text--login"> FRANCES</span>
+                </label>
+
+            </div>
+
+            <!-- CARRITO ICON -->
+            <a class="nav__link--login" href="carrito.html">
+                <i class="nav__icon--login fa-solid fa-cart-shopping" id="active"></i>
+            </a>
+
+            <!-- USER ICON -->
+            <a class="nav__link--login" href="area-personal.html">
+                <i class="nav__icon--login fa-solid fa-user"></i>
+            </a>
+
+        </div>
+
+        <!-- MENÚ -->
+        <ul class="nav__lista--login">
+            <li class="nav__option--login"><a class="option__link--login" href="index-login.html"> INICIO </a></li>
+            <li class="nav__option--login"><a class="option__link--login" href="especialistas-login.html"> ESPECIALISTAS
+                </a></li>
+            <li class="nav__option--login"><a class="option__link--login" href="pedir-cita-login.html"> PEDIR CITA </a>
+            </li>
+            <li class="nav__option--login"><a class="option__link--login" href="faq-login.html"> DUDAS </a></li>
+        </ul>
+
+        <!-- IMAGEN LOGO -->
+        <div class="nav__container-img--login">
+            <a href="index-login.html" class="nav__link--login">
+                <img class="nav__img--login" src="assets/img/Logo.svg" alt="Logo  de la empresa">
+            </a>
+        </div>
+
+    </nav>
+
+    <div id="nav__menu" class="nav__menu">
+        <i class="nav__menu-icon fa-solid fa-bars"></i>
+    </div>
+
+    <!-- MAIN DE LA WEB -->
+    <main class="home__main">
+
+        <section class="main__shop">
+
+            <header class="shop__header">
+                <h1 class="shop__title">PAGAR CITA</h1>
+            </header>
+
+            <div class="shop__container">
+
+                <!-- SECCIÓN IZQ -->
+                <div class="shop__container-left">
+                    <div class="container-left__container-description-shop">
+                        <h2 class="container-left__title-shop">NOMBRE SERVICIO</h2>
+                        <p class="container-left__description-shop">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic autem suscipit assumenda quis
+                            tempora animi sapiente quaerat, inventore eius quae minima dignissimos repellendus, corrupti
+                            odio itaque fugit consequatur pariatur. Modi!
+                            Ipsum dolore quae adipisci quisquam, soluta beatae asperiores reiciendis harum minima labore
+                            ipsa. Tenetur esse dignissimos quae voluptatum! Saepe, fugiat temporibus dignissimos tenetur
+                            velit harum cupiditate rerum aliquid sint hic.
+                            Accusamus magnam rerum voluptatem, debitis delectus animi libero ipsa? Perspiciatis quas
+                            ipsa, quisquam voluptatibus beatae ullam possimus cumque quod deserunt asperiores id,
+                            obcaecati laboriosam aut mollitia perferendis commodi! Necessitatibus, dolor.
+                            Excepturi debitis animi et ut, officia eaque maiores ratione in voluptate cupiditate,
+                            perspiciatis dolore voluptatibus amet at officiis, optio facilis explicabo minus molestiae?
+                            Nobis earum consequuntur non dolorum, incidunt totam.
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- SECCIÓN DER -->
+                <div class="shop__container-right">
+                    <h2 class="container-right__title-shop">DATOS DE PAGO</h2>
+
+                    <form class="shop__form" action="#" method="post">
+
+                        <label class="shop__label" for="nombre">Nombre en la tarjeta:</label>
+                        <input class="shop__input" type="text" id="nombre" name="nombre"
+                            placeholder="Nombre completo..." required>
+
+                        <label class="shop__label" for="numero">Número de tarjeta:</label>
+                        <input class="shop__input" type="text" id="numero" name="numero"
+                            placeholder="Número de tarjeta..." required>
+
+                        <label class="shop__label" for="fecha">Fecha de vencimiento:</label>
+                        <input class="shop__input" type="date" id="fecha" name="fecha" required>
+
+                        <label class="shop__label" for="cvv">CVV:</label>
+                        <input class="shop__input shop__input--last" type="text" id="cvv" name="cvv" placeholder="CVV..." required>
+
+                    </form>
+
+                    <a class="container-right__btn-shop" href="#">
+                        <span class="btn-shop__title">PAGAR CITA</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <!-- PIÉ DE PÁGINA -->
+    <footer class="home__footer">
+
+        <!-- TERMINOS LEGALES -->
+        <div class="footer__container-legal">
+            <ul class="container-legal__list">
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 1</a></li>
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 2</a></li>
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 3</a></li>
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 4</a></li>
+            </ul>
+        </div>
+
+        <!-- INFORMACIÓN -->
+        <div class="footer__container-description">
+            <p class="footer__description">
+                ¡DocMeet te brinda acceso rápido y seguro a profesionales de la salud desde la comodidad
+                de tu hogar! Navega por nuestros especialistas, programa tu cita y paga de manera segura. Atención
+                médica de calidad a solo un clic de distancia.
+            </p>
+        </div>
+
+        <div class="footer__container-rrss">
+
+            <div class="container-rrss__rrss">
+                <i class="rrss__icon fa-brands fa-twitter"></i>
+                <p class="rrss__text"><a class="rrss__link" href="#">Twitter</a></p>
+            </div>
+
+            <div class="container-rrss__rrss">
+                <i class="rrss__icon fa-brands fa-youtube"></i>
+                <p class="rrss__text"><a class="rrss__link" href="#">Youtube</a></p>
+            </div>
+
+            <div class="container-rrss__rrss">
+                <i class="rrss__icon fa-brands fa-instagram"></i>
+                <p class="rrss__text"><a class="rrss__link" href="#">Instagram</a></p>
+            </div>
+
+        </div>
+
+    </footer>
+    
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,363 @@
+@media (max-width: 1565px) {
+
+    /* Cartas de especialistas */
+    .cards__card {
+        flex-basis: calc(33% - 40px);
+    }
+}
+
+@media (max-width: 1500px) {
+
+    /* Barra de navegación */
+    .nav__lista--login {
+        gap: 50px;
+    }
+
+    .nav__right--login {
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 1430px) {
+
+    /* Barra de navegación */
+    .nav__lista {
+        gap: 50px;
+    }
+
+    .nav__right {
+        gap: 30px;
+    }
+
+    /* Footer */
+    .footer__container-legal {
+        flex-basis: 50%;
+    }
+
+    .footer__container-description {
+        flex-basis: calc(50% - 30px);
+        margin-right: 30px;
+
+    }
+
+    .footer__container-rrss {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    /* Barra de navegación */
+    .nav__lista--login {
+        gap: 30px;
+    }
+
+    .option__link--login {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1255px) {
+
+    /* Barra de navegación */
+    .nav__lista {
+        gap: 40px;
+    }
+
+    .nav__btn-login {
+        padding: 8px 30px;
+    }
+
+    .cards__title {
+        margin: 0;
+    }
+
+    /* Quitar las imagenes y poner el texto al 100% */
+    .right__container-img {
+        display: none;
+    }
+
+    .left__container-img {
+        display: none;
+    }
+
+    .section-1__left {
+        flex-basis: 100%;
+    }
+
+    .section-3__right {
+        flex-basis: 100%;
+    }
+
+    .main__section-1 {
+        padding-bottom: 0;
+    }
+
+    .cards__btns {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1165px) {
+
+    /* Barra de navegación */
+    .nav__lista {
+        gap: 35px;
+    }
+
+    .home__nav {
+        padding: 20px 50px;
+    }
+
+    .option__link {
+        font-size: 2rem;
+    }
+
+    .nav__btn-login {
+        padding: 8px 30px;
+    }
+
+    /* Cartas de especialistas */
+    .cards__card {
+        flex-basis: calc(50% - 40px);
+    }
+
+    /* Cartas de opiniones */
+    .opinions__opinion {
+        flex-basis: 100%;
+    }
+
+    /* Barra de navegación */
+    .nav__lista--login {
+        gap: 35px;
+    }
+
+    .home__nav--login {
+        padding: 20px 50px;
+    }
+
+    .option__link--login {
+        font-size: 2rem;
+    }
+
+    /* Mis citas */
+    .mis-citas__mi-cita {
+        flex-basis: 100%;
+    }
+
+    .container-right__img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    /* Footer */
+    .option__link--footer {
+        width: 10%;
+    }
+}
+
+@media (max-width: 1335px){
+    /* Carrito */
+    .shop__container {
+        display: block;
+    }
+
+    .shop__container-left {
+        margin-bottom: 50px;
+    }
+
+    .shop__input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1070px) {
+
+    /* Barra de navegación */
+    .nav__container-img--login {
+        display: none;
+    }
+
+    .nav__lista--login {
+        gap: 40px;
+    }
+
+    .option__link--login {
+        font-size: 1.7rem;
+    }
+
+    .nav__radio--login {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2.5px;
+        width: 200px;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 980px) {
+
+    /* Barra de navegación */
+    .nav__container-img {
+        display: none;
+    }
+
+    .btn-login__title {
+        font-size: 2rem;
+    }
+
+    .nav__btn-login {
+        padding: 8px 18px;
+    }
+
+    .nav__lista {
+        gap: 50px;
+    }
+
+    .option__link {
+        font-size: 2rem;
+    }
+
+    /* Footer */
+    .home__footer {
+        justify-content: center;
+    }
+
+    .footer__container-legal {
+        flex-basis: 100%;
+        margin: 0;
+        margin-left: -100px;
+    }
+
+    .container-legal__list {
+        display: inline-flex;
+        gap: 20px;
+    }
+
+    .footer__container-description {
+        flex-basis: 100%;
+        margin-left: 120px;
+
+    }
+
+    .footer__container-rrss {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 870px) {
+
+    /* Menu movil */
+    .home__nav,
+    .home__nav--login {
+        display: none;
+        padding-top: 100px;
+    }
+
+    .main__menu--show {
+        display: block;
+    }
+
+    .nav__menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+
+    .nav__menu-icon {
+        font-size: 50px;
+        color: var(--color-secundario);
+        cursor: pointer;
+    }
+
+    .nav__lista,
+    .nav__lista--login {
+        display: block;
+        line-height: 40px;
+        padding-top: 20px;
+    }
+
+    .home__main{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .section1__datos {
+        grid-template-areas:
+        "a1 a1 a1 a3"
+        "a2 a2 a2 a7"
+        "a2 a2 a2 a6"
+        "a5 a5 a5 a5"
+        "a4 a4 a4 a4";
+    }
+}
+
+@media (max-width: 775px) {
+    .cards__card {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .personal__container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 525px) {
+    .dato__text{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 550px){
+    .mi-cita__container-img{
+        display: none;
+    }
+
+    .mi-cita__container-description{
+        flex-basis: 100%;
+    }
+} 
+
+@media (max-width: 420px){
+    .nav__radio--login{
+        width: 40%;
+    }
+
+    .dato__text{
+        font-size: 2rem;
+    }
+
+    .dato__title{
+        font-size: 1.5rem;
+    }
+} 
+
+@media (max-width: 320px) {
+    .section1__datos {
+        grid-template-areas:
+        "a1 a1 a1 a1"
+        "a2 a2 a2 a2"
+        "a3 a3 a3 a3"
+        "a4 a4 a4 a4"
+        "a5 a5 a5 a5"
+        "a6 a6 a6 a6"
+        "a7 a7 a7 a7";
+    }
+
+    .dato__text{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 285px){
+    .nav__radio--login{
+        display: none;
+    }
+} 
